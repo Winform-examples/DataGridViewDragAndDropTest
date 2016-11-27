@@ -60,7 +60,7 @@ namespace DragDropTest
         /// <param name="e">MouseEventArgs</param>
         private void DataGridView2_OnDragEnter(object sender, DragEventArgs e)
         {
-           e.Effect = DragDropEffects.Move;
+           e.Effect = DragDropEffects.Copy;
         }
 
         /// <summary>
